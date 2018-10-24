@@ -3,11 +3,11 @@
   <title>欢迎</title>
   
   <subtitle>副标题</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/blog/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://ltggggg.github.io/blog/"/>
   <updated>2018-10-24T04:00:00.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://ltggggg.github.io/blog/</id>
   
   <author>
     <name>ltggggg</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>test</title>
-    <link href="http://yoursite.com/2018/10/23/test/"/>
-    <id>http://yoursite.com/2018/10/23/test/</id>
+    <link href="https://ltggggg.github.io/blog/2018/10/23/test/"/>
+    <id>https://ltggggg.github.io/blog/2018/10/23/test/</id>
     <published>2018-10-23T09:07:34.000Z</published>
     <updated>2018-10-24T04:00:00.000Z</updated>
     
@@ -35,10 +35,10 @@
     
     </summary>
     
-      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+      <category term="hexo" scheme="https://ltggggg.github.io/blog/categories/hexo/"/>
     
     
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+      <category term="hexo" scheme="https://ltggggg.github.io/blog/tags/hexo/"/>
     
   </entry>
   
