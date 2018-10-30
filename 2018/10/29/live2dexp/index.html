@@ -89,18 +89,18 @@
 
 
 
-<meta name="description" content="使用命令：npm uninstall hexo-helper-live2d    live2d    依赖文件之后再安装：npm install –save hexo-helper-live2d    live2d    模型模型安装成功后可以在hexo\node_modules\live2d-widget-models-master找到 在主目录文件_config.yml中放入下面代码12345">
+<meta name="description" content="使用命令：npm uninstall hexo-helper-live2d    live2d    依赖文件之后再安装：npm install –save hexo-helper-live2d    live2d    模型模型安装成功后可以在hexo\node_modules\live2d-widget-models-master找到">
 <meta name="keywords" content="live2d">
 <meta property="og:type" content="article">
 <meta property="og:title" content="加入live2d及修改模型">
 <meta property="og:url" content="http://yoursite.com/2018/10/29/live2dexp/index.html">
 <meta property="og:site_name" content="一起玩(*^▽^*)">
-<meta property="og:description" content="使用命令：npm uninstall hexo-helper-live2d    live2d    依赖文件之后再安装：npm install –save hexo-helper-live2d    live2d    模型模型安装成功后可以在hexo\node_modules\live2d-widget-models-master找到 在主目录文件_config.yml中放入下面代码12345">
+<meta property="og:description" content="使用命令：npm uninstall hexo-helper-live2d    live2d    依赖文件之后再安装：npm install –save hexo-helper-live2d    live2d    模型模型安装成功后可以在hexo\node_modules\live2d-widget-models-master找到">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-10-30T08:15:58.852Z">
+<meta property="og:updated_time" content="2018-10-30T08:24:54.623Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="加入live2d及修改模型">
-<meta name="twitter:description" content="使用命令：npm uninstall hexo-helper-live2d    live2d    依赖文件之后再安装：npm install –save hexo-helper-live2d    live2d    模型模型安装成功后可以在hexo\node_modules\live2d-widget-models-master找到 在主目录文件_config.yml中放入下面代码12345">
+<meta name="twitter:description" content="使用命令：npm uninstall hexo-helper-live2d    live2d    依赖文件之后再安装：npm install –save hexo-helper-live2d    live2d    模型模型安装成功后可以在hexo\node_modules\live2d-widget-models-master找到">
 
 
 
@@ -340,7 +340,7 @@
 		
 		  <span class="post-updated">
 			&nbsp; | &nbsp; 更新于
-			<time itemprop="dateUpdated" datetime="2018-10-30T16:15:58+08:00" content="2018-10-30">
+			<time itemprop="dateUpdated" datetime="2018-10-30T16:24:54+08:00" content="2018-10-30">
 			  2018-10-30
 			</time>
 		  </span>
@@ -405,8 +405,7 @@
       
 
       
-        <p>使用命令：npm uninstall hexo-helper-live2d    live2d    依赖文件<br>之后再安装：npm install –save hexo-helper-live2d    live2d    模型<br>模型安装成功后可以在hexo\node_modules\live2d-widget-models-master找到</p>
-<p>在主目录文件_config.yml中放入下面代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">## Live2D</span><br><span class="line">## https://github.com/EYHN/hexo-helper-live2d</span><br><span class="line">live2d:</span><br><span class="line">    enable: true</span><br><span class="line">  # enable: false</span><br><span class="line">    scriptFrom: local # 默认</span><br><span class="line">    pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)</span><br><span class="line">    pluginJsPath: lib/ # 脚本文件相对与插件根目录路径</span><br><span class="line">    pluginModelPath: assets/ # 模型文件相对与插件根目录路径</span><br><span class="line">  # scriptFrom: jsdelivr # jsdelivr CDN</span><br><span class="line">  # scriptFrom: unpkg # unpkg CDN</span><br><span class="line">  # scriptFrom: https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url</span><br><span class="line">    tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中</span><br><span class="line">    debug: false # 调试, 是否在控制台输出日志</span><br><span class="line">    model:</span><br><span class="line">      use: live2d-widget-models-master\packages\live2d-widget-model-koharu # npm-module package name</span><br><span class="line">    # use: wanko # 博客根目录/live2d_models/ 下的目录名</span><br><span class="line">    # use: ./wives/wanko # 相对于博客根目录的路径</span><br><span class="line">    # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url</span><br><span class="line">    display: # 模型位置，根据不同的模型自行调整</span><br><span class="line">      position: right</span><br><span class="line">      width: 150</span><br><span class="line">      height: 300</span><br><span class="line">    mobile: # 是否适用于移动端</span><br><span class="line">      show: true</span><br></pre></td></tr></table></figure></p>
+        <p>使用命令：npm uninstall hexo-helper-live2d    live2d    依赖文件<br>之后再安装：npm install –save hexo-helper-live2d    live2d    模型<br>模型安装成功后可以在hexo\node_modules\live2d-widget-models-master找到<br><a id="more"></a><br>在主目录文件_config.yml中放入下面代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">## Live2D</span><br><span class="line">## https://github.com/EYHN/hexo-helper-live2d</span><br><span class="line">live2d:</span><br><span class="line">    enable: true</span><br><span class="line">  # enable: false</span><br><span class="line">    scriptFrom: local # 默认</span><br><span class="line">    pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)</span><br><span class="line">    pluginJsPath: lib/ # 脚本文件相对与插件根目录路径</span><br><span class="line">    pluginModelPath: assets/ # 模型文件相对与插件根目录路径</span><br><span class="line">  # scriptFrom: jsdelivr # jsdelivr CDN</span><br><span class="line">  # scriptFrom: unpkg # unpkg CDN</span><br><span class="line">  # scriptFrom: https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url</span><br><span class="line">    tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中</span><br><span class="line">    debug: false # 调试, 是否在控制台输出日志</span><br><span class="line">    model:</span><br><span class="line">      use: live2d-widget-models-master\packages\live2d-widget-model-koharu # npm-module package name</span><br><span class="line">    # use: wanko # 博客根目录/live2d_models/ 下的目录名</span><br><span class="line">    # use: ./wives/wanko # 相对于博客根目录的路径</span><br><span class="line">    # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url</span><br><span class="line">    display: # 模型位置，根据不同的模型自行调整</span><br><span class="line">      position: right</span><br><span class="line">      width: 150</span><br><span class="line">      height: 300</span><br><span class="line">    mobile: # 是否适用于移动端</span><br><span class="line">      show: true</span><br></pre></td></tr></table></figure></p>
 <p>hexo g    部署<br>hexo d    上传<br>就可以看到页面上出现的live2d<br>可以在主目录中_config.yml修改相关配置</p>
 
       
@@ -416,7 +415,16 @@
     
 
     
-
+	
+	<div>
+		
+		<div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+		
+	</div>
     
 
     
@@ -646,6 +654,16 @@
 
 
 
+
+
+
+
+    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <span id="busuanzi_container_site_pv">总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+    <span class="post-meta-divider">|</span>
+    <span id="busuanzi_container_site_uv">总访客<span id="busuanzi_value_site_uv"></span>人</span>
+    <span class="post-meta-divider">|</span>
 
 
 
