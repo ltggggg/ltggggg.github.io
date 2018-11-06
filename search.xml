@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[hexo文件目录]]></title>
+    <url>%2F2018%2F11%2F06%2Fhexocatalog%2F</url>
+    <content type="text"><![CDATA[├── .github&nbsp;&nbsp;#git信息├── languages&nbsp;&nbsp;#多语言| ├── default.yml #默认语言| └── zh-Hans.yml #简体中文| └── zh-tw.yml #繁体中文├── layout #布局，根目录下的.ejs文件是对主页，分页，存档等的控制| ├── _custom #可以自己修改的模板，覆盖原有模板| | ├── _header.swig #头部样式| | ├── _sidebar.swig #侧边栏样式| ├── _macro #可以自己修改的模板，覆盖原有模板| | ├── post.swig #文章模板| | ├── reward.swig #打赏模板| | ├── sidebar.swig #侧边栏模板| ├── _partial #局部的布局| | ├── head #头部模板| | ├── search #搜索模板| | ├── share #分享模板| ├── _script #局部的布局| ├── _third-party #第三方模板| ├── _layout.swig #主页面模板| ├── index.swig #主页面模板| ├── page #页面模板| └── tag.swig #tag模板├── scripts #script源码| ├── tags #tags的script源码| ├── marge.js #页面模板├── source #源码| ├── css #css源码| | ├── _common #.styl基础css| | ├── _custom #*.styl局部css| | └── _mixins #mixins的css| ├── fonts #字体| ├── images #图片| ├── uploads #添加的文件| └── js #javascript源代码├── _config.yml #主题配置文件└── README.md #用GitHub的都知道]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[javascript练习]]></title>
+    <url>%2F2018%2F11%2F06%2Fjavascript%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>javascript</category>
+      </categories>
+      <tags>
+        <tag>javascript</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[加入live2d及修改模型]]></title>
     <url>%2F2018%2F10%2F29%2Flive2dexp%2F</url>
     <content type="text"><![CDATA[使用命令：npm uninstall hexo-helper-live2d live2d 依赖文件之后再安装：npm install –save hexo-helper-live2d live2d 模型模型安装成功后可以在hexo\node_modules\live2d-widget-models-master找到在主目录文件_config.yml中放入下面代码12345678910111213141516171819202122232425## Live2D## https://github.com/EYHN/hexo-helper-live2dlive2d: enable: true # enable: false scriptFrom: local # 默认 pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径) pluginJsPath: lib/ # 脚本文件相对与插件根目录路径 pluginModelPath: assets/ # 模型文件相对与插件根目录路径 # scriptFrom: jsdelivr # jsdelivr CDN # scriptFrom: unpkg # unpkg CDN # scriptFrom: https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中 debug: false # 调试, 是否在控制台输出日志 model: use: live2d-widget-models-master\packages\live2d-widget-model-koharu # npm-module package name # use: wanko # 博客根目录/live2d_models/ 下的目录名 # use: ./wives/wanko # 相对于博客根目录的路径 # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url display: # 模型位置，根据不同的模型自行调整 position: right width: 150 height: 300 mobile: # 是否适用于移动端 show: true hexo g 部署hexo d 上传就可以看到页面上出现的live2d可以在主目录中_config.yml修改相关配置]]></content>
@@ -14,7 +36,7 @@
   <entry>
     <title><![CDATA[hexo 基本操作]]></title>
     <url>%2F2018%2F10%2F29%2Fhexo-basics%2F</url>
-    <content type="text"><![CDATA[在git bash here创建文件时最好不要输入空格迁移blog等注意备份node_modules/hexo-generator-index/lib/generator.js这个文件]]></content>
+    <content type="text"><![CDATA[在git bash here创建文件时最好不要输入空格迁移blog等注意备份node_modules/hexo-generator-index/lib/generator.js这个文件 1&lt;!-- more --&gt; 添加阅读全文位置]]></content>
       <categories>
         <category>hexo</category>
       </categories>
