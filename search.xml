@@ -2,11 +2,6 @@
 <search>
   <entry>
     <title></title>
-    <url>%2F2018%2F11%2F13%2Ftoki%2F</url>
-    <content type="text"><![CDATA[// JavaScript Document function c(){ var time = new Date(); var t = time.toLocaleString(); document.getElementById("asd").innerHTML = t; setTimeout(c,1000); } window.onload(c());]]></content>
-  </entry>
-  <entry>
-    <title></title>
     <url>%2F2018%2F11%2F13%2Fjavascript%2Ftoki%2F</url>
     <content type="text"><![CDATA[// JavaScript Document function c(){ var time = new Date(); var t = time.toLocaleString(); document.getElementById("asd").innerHTML = t; setTimeout(c,1000); } window.onload(c());]]></content>
   </entry>

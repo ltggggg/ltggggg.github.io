@@ -18,32 +18,6 @@
   
   <entry>
     <title></title>
-    <link href="http://yoursite.com/2018/11/13/toki/"/>
-    <id>http://yoursite.com/2018/11/13/toki/</id>
-    <published>2018-11-13T08:55:47.777Z</published>
-    <updated>2018-11-12T15:47:42.248Z</updated>
-    
-    <content type="html"><![CDATA[// JavaScript Documentfunction c(){var time = new Date();var t = time.toLocaleString();document.getElementById("asd").innerHTML = t;setTimeout(c,1000);}window.onload(c());]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        // JavaScript Document
-function c(){
-	var time = new Date();
-	var t = time.toLocaleString();
-	document.getElementById(&quot;asd&quot;).innerHTML = t;
-
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
     <link href="http://yoursite.com/2018/11/13/javascript/toki/"/>
     <id>http://yoursite.com/2018/11/13/javascript/toki/</id>
     <published>2018-11-13T08:49:17.894Z</published>
@@ -95,15 +69,15 @@ function c(){
     <link href="http://yoursite.com/2018/11/06/javascript/"/>
     <id>http://yoursite.com/2018/11/06/javascript/</id>
     <published>2018-11-06T14:31:48.000Z</published>
-    <updated>2018-11-13T08:56:51.144Z</updated>
+    <updated>2018-11-13T09:15:33.367Z</updated>
     
-    <content type="html"><![CDATA[<script src="./javascript/toki.js"></script><p><button onclick="c()">push</button></p><p id="asd"></p>]]></content>
+    <content type="html"><![CDATA[<script type="text/javascript" src="toki.js"></script><p><button onclick="c()">push</button></p><p id="asd"></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;script src=&quot;./javascript/toki.js&quot;&gt;&lt;/script&gt;
+        &lt;script type=&quot;text/javascript&quot; src=&quot;toki.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;&lt;button onclick=&quot;c()&quot;&gt;push&lt;/button&gt;&lt;/p&gt;
 &lt;p id=&quot;asd&quot;&gt;&lt;/p&gt;
