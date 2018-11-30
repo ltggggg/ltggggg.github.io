@@ -505,8 +505,8 @@
 		
 		  <span class="post-updated">
 			&nbsp; | &nbsp; 更新于
-			<time itemprop="dateUpdated" datetime="2018-11-24T11:44:36+08:00" content="2018-11-24">
-			  2018-11-24
+			<time itemprop="dateUpdated" datetime="2018-11-30T20:18:19+08:00" content="2018-11-30">
+			  2018-11-30
 			</time>
 		  </span>
 		
@@ -572,7 +572,7 @@
       
         
           
-            <table cellspacing="0px" cellpadding="0px"><br><tr><td colspan="2">2018-11-22</td></tr><br><tr><br><td><img src="/2018/11/23/imgtext/slm.gif"></td><br><td><img src="/2018/11/23/imgtext/slm2.gif"></td><br></tr><br></table>
+            <table cellspacing="0px" cellpadding="0px"><br><tr><td colspan="2">2018-11-22</td></tr><br><tr><br><td><img src="/2018/11/23/imgtext/slm.gif"></td><br><td><img src="/2018/11/23/imgtext/slm2.gif"></td><br></tr><br><tr><br><td><img src="/2018/11/23/imgtext/slm.gif"></td><br><td><img src="/2018/11/23/imgtext/slm2.gif"></td><br></tr><br></table>
           
         
       
@@ -836,8 +836,8 @@
 		
 		  <span class="post-updated">
 			&nbsp; | &nbsp; 更新于
-			<time itemprop="dateUpdated" datetime="2018-11-23T23:26:17+08:00" content="2018-11-23">
-			  2018-11-23
+			<time itemprop="dateUpdated" datetime="2018-11-25T23:34:08+08:00" content="2018-11-25">
+			  2018-11-25
 			</time>
 		  </span>
 		
@@ -903,7 +903,45 @@
       
         
           
-            <script type="text/javascript">
+            <style type="text/css">  
+     #tab-list{font:normal 12px "微软雅黑";color:#000000;}
+     ul{list-style-type: none;}
+     a{text-decoration: none;}
+
+     #tab-list{width: 275px;height:190px;margin: 20px auto;}
+
+     #ul1{border-bottom: 2px solid #8B4513;height: 32px;}
+     #ul1 li{display: inline-block;width: 60px;line-height: 30px;text-align: center;border: 1px solid #999;border-bottom: none;margin-left: 5px;}
+     #ul1 li:hover{cursor: pointer;}
+     #ul1 li.active{border-top:2px solid #8B4513;border-bottom:2px solid #FFFFFF;}
+
+     #tab-list div{border: 1px solid #7396B8;border-top: none;}
+     #tab-list div li{height: 30px;line-height: 30px;text-indent: 8px;}
+
+     .show{display: block;}.hide{display: none;}
+</style>
+
+<script type="text/javascript">
+window.onload = function() {
+        var oUl1 = document.getElementById("ul1");
+        var aLi = oUl1.getElementsByTagName("li");
+        var oDiv = document.getElementById("tab-list");
+        var aDiv = oDiv.getElementsByTagName("div");
+        for(var i = 0; i < aLi.length; i++) {
+            aLi[i].index = i;
+            aLi[i].onmouseover = function() {
+                for(var i = 0; i < aLi.length; i++) {
+                    aLi[i].className = "";
+                }
+                this.className = "active";
+                for(var j = 0; j < aDiv.length; j++) {
+                    aDiv[j].className = "hide";
+                }
+                aDiv[this.index].className = "show";
+            }        
+        }
+    }
+
 function c(){
     var time = new Date();
     var t = time.toLocaleString();
@@ -921,6 +959,7 @@ td.style.height="200px";
 td.style.width="200px";}
 </script>
 
+<p><div id="tab-list"><br>    <ul id="ul1"><br>        <li class="active">房产</li><li>家居</li><li>二手房</li><br>    </ul><br>    <div><br>        <ul><br>            <li><a href="javascript:;" target="_blank" rel="noopener">275万购昌平邻铁三居 总价20万买一居</a></li><br>            <li><a href="javascript:;" target="_blank" rel="noopener">200万内购五环三居 140万安家东三环</a></li><br>            <li><a href="javascript:;" target="_blank" rel="noopener">北京首现零首付楼盘 53万购东5环50平</a></li><br>            <li><a href="javascript:;" target="_blank" rel="noopener">京楼盘直降5000 中信府 公园楼王现房</a></li><br>        </ul><br>    </div><br>    <div class="hide"><br>        <ul><br>            <li><a href="javascript:;" target="_blank" rel="noopener">40平出租屋大改造 美少女的混搭小窝</a></li><br>            <li><a href="javascript:;" target="_blank" rel="noopener">经典清新简欧爱家 90平老房焕发新生</a></li><br>            <li><a href="javascript:;" target="_blank" rel="noopener">新中式的酷色温情 66平撞色活泼家居</a></li><br>            <li><a href="javascript:;" target="_blank" rel="noopener">瓷砖就像选好老婆 卫生间烟道的设计</a></li><br>        </ul><br>    </div><br>    <div class="hide"><br>        <ul><br>            <li><a href="javascript:;" target="_blank" rel="noopener">通州豪华3居260万 二环稀缺2居250w甩</a></li><br>            <li><a href="javascript:;" target="_blank" rel="noopener">西3环通透2居290万 130万2居限量抢购</a></li><br>            <li><a href="javascript:;" target="_blank" rel="noopener">黄城根小学学区仅260万 121平70万抛!</a></li><br>            <li><a href="javascript:;" target="_blank" rel="noopener">独家别墅280万 苏州桥2居优惠价248万</a></li><br>        </ul><br>    </div><br></div><br><br></p>
 <p><button onclick="c()">push</button></p>
 <p></p><p id="asd"></p><p></p>
 <p><button onclick="a()">aaa</button></p>
